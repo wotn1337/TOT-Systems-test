@@ -1,7 +1,7 @@
 {
   "name": "mail",
   "version": "0.1.0",
-  "homepage": "https://gitname.wotn1337.github.io/TOT_Systems_test",
+  "homepage": "https://wotn1337.github.io/TOT_Systems_test",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
