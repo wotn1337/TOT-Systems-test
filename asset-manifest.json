@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TOT-Systems-test/static/css/main.900fb54d.css",
-    "main.js": "/TOT-Systems-test/static/js/main.a4f94fb2.js",
+    "main.js": "/TOT-Systems-test/static/js/main.33e4eeed.js",
     "static/js/787.1493a40f.chunk.js": "/TOT-Systems-test/static/js/787.1493a40f.chunk.js",
     "index.html": "/TOT-Systems-test/index.html",
     "main.900fb54d.css.map": "/TOT-Systems-test/static/css/main.900fb54d.css.map",
-    "main.a4f94fb2.js.map": "/TOT-Systems-test/static/js/main.a4f94fb2.js.map",
+    "main.33e4eeed.js.map": "/TOT-Systems-test/static/js/main.33e4eeed.js.map",
     "787.1493a40f.chunk.js.map": "/TOT-Systems-test/static/js/787.1493a40f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.900fb54d.css",
-    "static/js/main.a4f94fb2.js"
+    "static/js/main.33e4eeed.js"
   ]
 }
