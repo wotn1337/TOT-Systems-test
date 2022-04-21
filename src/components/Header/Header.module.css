@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    border-bottom: 1px solid #ffb703;
+}
+
+.title {
+    margin: 0;
+}
+
+.search {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.search__input {
+    width: 500px;
+    height: 25px;
+    padding: 10px;
+}
+
+.search__input::placeholder {
+    color: rgba(251, 133, 0, 0.5);
+}

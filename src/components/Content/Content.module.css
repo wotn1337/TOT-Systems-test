@@ -1,0 +1,75 @@
+.table {
+}
+
+.table__row {
+    display: grid;
+    grid-template-columns: 50px 150px 1fr 100px 10px 100px;
+    border-bottom: 1px solid #ffb703;
+    height: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 10px;
+    gap: 20px;
+}
+
+.table__cell, .head__cell {
+    display: block;
+    box-sizing: border-box;
+}
+
+.letter {
+    color: #023047;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.letter:hover {
+    cursor: pointer;
+    background-color: #8ecae6;
+}
+
+.check {
+    width: 18px;
+    height: 18px;
+}
+
+.isNotRead {
+    width: 10px;
+    height: 10px;
+    background-color: #219ebc;
+    border-radius: 50%;
+}
+
+.isRead {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tagFirstLetter {
+    display: block;
+    background-color: #8ecae6;
+    color: #023047;
+    border-radius: 50%;
+    padding: 1px 7px;
+}
+
+.table__empty {
+    font-size: 22px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #023047;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #023047;
+  border: none;
+  outline: none;
+  color: #fb8500;
+}
+
+.btn {
+  background-color: #023047;
+  color: #fb8500;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  transition: 300ms;
+}
+
+.btn:hover {
+  background-color: #fb8500;
+  color: #023047;
+  cursor: pointer;
+}
+
+.dropDown {
+  background-color: #023047;
+  color: #fb8500;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dropDown__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.dropDown__item {
+  line-height: 30px;
+}
+
+.dropDown__item:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }

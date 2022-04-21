@@ -1,0 +1,36 @@
+.letter {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.letter__header__wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.preview {
+    padding: 0;
+    margin: 0;
+}
+
+.author__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #8ecae6;
+    color: #023047;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
