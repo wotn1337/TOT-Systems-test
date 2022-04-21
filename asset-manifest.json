@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TOT_Systems_test/static/css/main.900fb54d.css",
+    "main.js": "/TOT_Systems_test/static/js/main.6017cb1a.js",
+    "static/js/787.1493a40f.chunk.js": "/TOT_Systems_test/static/js/787.1493a40f.chunk.js",
+    "index.html": "/TOT_Systems_test/index.html",
+    "main.900fb54d.css.map": "/TOT_Systems_test/static/css/main.900fb54d.css.map",
+    "main.6017cb1a.js.map": "/TOT_Systems_test/static/js/main.6017cb1a.js.map",
+    "787.1493a40f.chunk.js.map": "/TOT_Systems_test/static/js/787.1493a40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.900fb54d.css",
+    "static/js/main.6017cb1a.js"
+  ]
+}
